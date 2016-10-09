@@ -1,0 +1,6 @@
+.DS_Store
+*npm-debug*
+.idea
+node_modules
+config/*
+!config/.gitkeep

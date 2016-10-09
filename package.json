@@ -1,0 +1,20 @@
+{
+  "name": "maman",
+  "version": "1.0.0",
+  "description": "Jakarta trafic hack. ODD day ODD number, EVEN day EVEN number teller.",
+  "main": "index.js",
+  "dependencies": {
+    "aws-sdk": "^2.6.7",
+    "config": "^1.21.0"
+  },
+  "devDependencies": {
+    "mocha": "^3.1.0",
+    "mock-lambda-context": "0.0.1",
+    "power-assert": "^1.4.1"
+  },
+  "scripts": {
+    "test": "node_modules/mocha/bin/mocha spec/index.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
